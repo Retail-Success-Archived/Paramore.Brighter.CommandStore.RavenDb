@@ -1,0 +1,6 @@
+{
+    "RavenDbSettings":{
+        "CommaSeperatedRavenDbNodeUrls":"{{CommaSeperatedRavenDbNodeUrls}}",
+        "TestDatabaseName":"{{TestDatabaseName}}"
+    }
+}
