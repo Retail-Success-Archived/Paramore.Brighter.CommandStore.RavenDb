@@ -27,3 +27,9 @@ Then on any command handlers decorate the Handle method with one of the followin
 
 [UseCommandSourcing(step: 1, timing: HandlerTiming.Before)]
 ```
+
+By default the commands get stored under the `commands` collection, this can be overridden when creating the command store by passing what you want the collection to be named as the second paramter.
+
+`public RavenDbCommandStore(DocumentStore store, string collectionName = "commands")`
+
+![Raven Studio](raven_studio_capture.png)
